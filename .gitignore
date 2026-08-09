@@ -1,0 +1,45 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+ipch/
+
+# Build output
+Debug/
+Release/
+x64/
+Win32/
+*.obj
+*.pdb
+*.ilk
+*.tlog
+*.lastbuildstate
+*.idb
+*.pch
+*.ipdb
+*.iobj
+*.res
+*.log
+*.lib
+*.exp
+*.map
+
+# Executables & libraries
+*.exe
+*.dll
+*.dll.directives
+*.appx
+
+# Third-party SDKs (download separately, see README)
+SFML-2.6.1/
+boost_1_86_0/
+sfml/
+
+# SFML runtime DLLs copied next to sources
+sfml-*.dll
+openal32.dll
+
+# Qt Creator / other
+*.autosave
