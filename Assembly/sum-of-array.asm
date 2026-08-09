@@ -1,0 +1,32 @@
+MODEL SMALL 
+STACK 100H
+
+DATA SEGMENT
+    ARR DB 10, 20, 30 ,40 ,50
+    LEN DB 5
+    SUM DB 0
+DATA ENDS
+
+CODE SEGMENT
+ASSUME CS:CODE, DS:DATA 
+START:
+    MOV AX, DATA 
+    MOV DS, AX
+
+    MOV CL, LEN 
+    MOV SI, OFFSET ARR 
+    MOV AL, 0
+
+
+    SUM_LOOP:
+        ADD AL, [SI] 
+        INC SI 
+        DEC CL 
+        JNZ SUM_LOOP
+
+        MOV SUM, AL
+
+        MOV AH, 4CH 
+        INT 21H
+CODE ENDS
+END START 

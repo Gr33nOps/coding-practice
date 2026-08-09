@@ -41,5 +41,24 @@ sfml/
 sfml-*.dll
 openal32.dll
 
+# .NET / C# build output
+bin/
+obj/
+*.apk
+*.nupkg
+*.snupkg
+.vs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Flutter / Godot SDKs (download separately)
+flutter_windows_*.zip
+Godot_v*/
+
 # Qt Creator / other
 *.autosave
