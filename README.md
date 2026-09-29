@@ -78,7 +78,7 @@ Open any `.sln` in Visual Studio and press **F7** for either language.
 | 27 | Password Strength Checker | `Password Strength Checker/27.vcxproj` | Score password strength |
 | 33 | Car Manager | `Car Manager/33.vcxproj` | Car records manager |
 | — | ABDULRAHMAN PROJECT | `ABDULRAHMAN PROJECT/` | Personal project (Quran/surah themed) |
-| — | Analog Clock | `analog clock/` | Analog clock console app |
+| — | Digital Clock | `digital clock/` | Digital clock console app |
 
 ## C++ Games — `C++/Games/`
 
